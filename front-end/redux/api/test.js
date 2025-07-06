@@ -1,4 +1,3 @@
-import { getavgSpeedAndAccuracy } from "../../../back-end/controllers/testController";
 import { apiSlice } from "../apiSlice";
 import { TEST_URL } from "../constants";
 export const testApiSlice = apiSlice.injectEndpoints({
