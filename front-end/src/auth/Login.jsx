@@ -31,7 +31,7 @@ const Login = () => {
 
   const handleGoogle = () => {
     window.location.href =
-      "https://type-rush2-yays.vercel.app/api/v1/users/auth/google";
+      "https://typerush2.onrender.com/api/v1/users/auth/google";
   };
 
   const handleError = (errors) => {
