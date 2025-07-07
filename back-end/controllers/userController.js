@@ -229,7 +229,7 @@ const getUser = async (req, res) => {
     if (!User) return res.status(400).json({ messgae: "user not found" });
     res.status(200).json(User);
   } catch (error) {
-    res.status(400).json(error);
+    res.status(400).json({ message: "cannot get the user" });
   }
 };
 
