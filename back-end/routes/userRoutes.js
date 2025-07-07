@@ -47,7 +47,7 @@ router.get(
       sameSite: "lax",
       maxAge: 24 * 60 * 60 * 1000,
     });
-    res.redirect("http://localhost:5173/user-page");
+    res.redirect("https://type-rush2-7w2v.vercel.app/user-page");
   }
 );
 
