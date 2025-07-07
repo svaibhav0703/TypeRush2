@@ -16,7 +16,7 @@ DBconnect(process.env.DATABASE_URL);
 
 app.use(
   cors({
-    origin: "https://type-rush2-7w2v.vercel.app/", // allow frontend origins , enabling cross origin request handling
+    origin: "https://type-rush2-yays.vercel.app", // allow frontend origins , enabling cross origin request handling
     credentials: true, // allow cookies
   })
 );
@@ -33,7 +33,7 @@ const server = http.createServer(app);
 const io = new Server(server, {
   // this is socket.io server instance
   cors: {
-    origin: "https://type-rush2-7w2v.vercel.app/",
+    origin: "https://type-rush2-yays.vercel.app",
     credentials: true,
   },
 });
