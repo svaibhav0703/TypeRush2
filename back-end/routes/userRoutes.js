@@ -44,7 +44,7 @@ router.get(
     res.cookie("token", Token, {
       httpOnly: true,
       secure: process.env.NODE_ENV === "production" ? true : false,
-      sameSite: "lax",
+      sameSite: process.env.NODE_ENV === "production" ? "none" : "lax",
       maxAge: 24 * 60 * 60 * 1000,
     });
     res.redirect("https://type-rush2-yays.vercel.app/user-page");
