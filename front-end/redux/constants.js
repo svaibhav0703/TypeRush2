@@ -1,4 +1,4 @@
-const BASE_URL = "http://localhost:3000";
+const BASE_URL = "https://typerush2.onrender.com";
 const USERS_URL = "api/v1/users";
 const TEXT_URL = "api/v1/text";
 const TEST_URL = "api/v1/test";
