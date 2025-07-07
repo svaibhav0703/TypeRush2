@@ -30,7 +30,8 @@ const Login = () => {
   };
 
   const handleGoogle = () => {
-    window.location.href = "http://localhost:3000/api/v1/users/auth/google";
+    window.location.href =
+      "https://type-rush2-yays.vercel.app/api/v1/users/auth/google";
   };
 
   const handleError = (errors) => {

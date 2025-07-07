@@ -2,8 +2,8 @@ import React from "react";
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { NavLink, Outlet, redirect } from "react-router";
-import { useGetUserQuery } from "../../redux/api/users";
-import { setCredentials } from "../../redux/slices/authSlice";
+import { useGetUserQuery } from "../../redux/api/users.js";
+import { setCredentials } from "../../redux/slices/authSlice.js";
 import { useNavigate } from "react-router";
 
 const StartPage = () => {
