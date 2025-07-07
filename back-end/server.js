@@ -21,6 +21,10 @@ app.use(
   })
 );
 
+app.get("/", (req, res) => {
+  res.send("Back-end is live");
+});
+
 app.use(express.urlencoded({ recursive: true })); // encodes
 app.use(express.json());
 app.use(cookieParser());
