@@ -10,7 +10,7 @@ import {
 import ResultChart from "./ResultChart.jsx";
 import { useSelector } from "react-redux";
 import { NavLink } from "react-router";
-import DataCard from "./dataCard.jsx";
+import DataCard from "./DataCard.jsx";
 const Stats = () => {
   // for getting the speed and accuracy
   const [performanceData, setPerformanceData] = useState({

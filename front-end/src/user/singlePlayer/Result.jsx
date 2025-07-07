@@ -4,7 +4,7 @@ import { useParams, useSearchParams } from "react-router";
 import { useGetTestQuery } from "../../../redux/api/test";
 import ResultChart from "./ResultChart";
 import confetti from "canvas-confetti";
-import DataCard from "./dataCard";
+import DataCard from "./DataCard.jsx";
 const Result = () => {
   const [params] = useSearchParams();
   const testId = params.get("testId");
